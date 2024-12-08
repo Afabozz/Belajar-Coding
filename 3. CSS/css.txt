@@ -1,0 +1,76 @@
+CSS 
+=> mekanisme sederhana yang mengatur gaya / style (cth : warna, ukuran, posisi, dll) pada  halaman web.
+
+Cascading Style Sheet
+- Aturan yang digunakan untuk menampilkan elemen / tag HTML 
+- Dibuat terpiisah dengan HTML 
+- Bertujuan untuk memisahkan konten dan style 
+- 1 CSS dapat digunakan untuk banyak halaman HTML 
+- 1 halaman HTML dapat terlihat berbeda jika menggunakan  CSS yang berbeda pula
+
+--> embed 
+<style></style>
+--> inline 
+<p style="color: lightblue;"> ... </p>
+--> external 
+<link rel="stylesheet" href="style.css">
+
+CSS Dasar 
+=> Selector
+- Digunakan untuk memilih dan memanipulasi elemen spesifik pada HTML.
+- Elemen HTML dipilih berdasarkan  tag, id, class bahkan pola / pattern.
+- Semakin kompleks struktur HTML , slector juga semakin kompleks / spesifik
+
+=>=> Selector basic
+Digunakan pada css untuk mengenali sebuah element HTML yang akan diberi style 
+
+=>=> id 
+- sebuah element HTML hanya boleh memiliki 1 id 
+- setiap halaman hanya boleh memiliki 1 elemen dengan id tersebut 
+- Dapat digunakan sebagai penanda halaman untuk link 
+- Digunakan juga untuk javascript 
+- Sebaiknya tidak digunakan untuk CSS (lebih baik gunakan class)
+
+=> pseudo-class
+kelas semu yang dimiliki oleh sebuah elemen HTML, yang membuat kita dapat mendefinisikan style pada "keadaan tertentu" dari element tersebut.
+
+- pseudo-class yang berhubungan dengan link 
+:link 
+  style default pada sebuah link (a yang memiliki href)
+:hover 
+  style ketika kursor mouse berada diatas sebuah link / elemen 
+:active 
+  style ketika link di-klik (keadaan aktif)
+:visited
+  style ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunakan browser yang sama) 
+
+- pseudo-class yang berhubungan dengan posisi elemen (1)
+:first-child
+  memilih element pertama dari sebuah parent (elemen pembungkusnya)
+:last-child 
+  memilih elemen terakhir dari sebuah parent (elemen pembungkusnya)
+:nth-child(n)
+  memilih elemen ke-n dari sebuah parent (elemen pembungkusnya). 
+  n bisa berarti urutan (1), (2), ...atau pola (2n), (3n+2), (4n-1) atau ganjil  dan genap (even) & (ood) 
+- pseudo-class yang berhubungan dengan posisi elemen (2)
+:first-of-type 
+  memilih elemen pertama dari sebuah jenis / tipe tag 
+:last-of-type 
+  memilih elemen terakhir dari sebuah jenis / tipe tag 
+
+=> inherite (pewarisan)
+sebuah elemen mewarisi beberapa nilai dari properti yang dimiliki oleh elemen parent-nya 
+
+=|>properti yang diwariskan 
+color
+font
+letter-spacing
+line-heigt
+list-style
+text-indent
+text-transform
+visibility
+white-space
+
+-> elemen <a> tidak mewarisi nilai dari properti color 
+

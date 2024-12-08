@@ -1,0 +1,85 @@
+<-- Canvas -->
+"Elemen canvas dapat digunakan untuk menampilkan grafis, seni, atau gambar secara langsung menggunakan script."
+
+<canvas>
+• Digunakan untuk menggambar grafis menggunakan javascript
+• Biasa digunakan untuk membuat: animasi, game, visualisasi data, manipulasi foto dan pemrosesan video secara real-time
+• Dapat berisi object 2D atau 3D
+• Menggunakan Canvas API atau WebGL API 
+
+<canvas> attributes
+• width
+• height
+
+<-->
+"Canvas API menyediakan cara untuk menggambar grafis 2D menggunakan javascript."
+
+Membuat Canvas 
+<canvas id="mycanvas"></canvas>
+
+<--
+const mycanvas = document.getElementById('mycanvas');
+
+mycanvas.width = window.innerWidth;
+mycanvas.height = window.innerHeight;
+
+const c = mycanvas.getContext('2d');
+-->
+
+Canvas API shapes 
+• Rectangle
+• Arc / Circle
+• Path 
+• Bezier & Quadratic Curve
+
+<--
+Rectangle 
+c.fillRect(25, 25, 100, 100);
+-->
+
+<--
+c.fillStyle = 'pink';
+c.strokeStyle = '#333';
+c.fillWidth = 5;
+
+c.rect(50, 50, 300, 400);
+c.fill();
+c.stroke();
+-->
+
+<--
+Circle
+c.fillStyle = 'lightblue';
+c.strokeStyle = '#000';
+c.lineWidth = 2;
+
+c.arc(300, 300, 150, 0, 2 * Math.PI);
+c.fill();
+c.stroke();
+-->
+
+<-- 
+c.fillStyle = 'lightgreen';
+c.strokeStyle = '#000';
+c.lineWidth = 2;
+
+c.beginPath();
+c.moveTo(300, 50);
+c.lineTo(450, 350);
+c.lineTo(150, 350);
+c.lineTo(300, 50);
+c.fill();
+c.stroke();
+-->
+
+Canvas 3rd party library 
+• D3.js 
+• three.js 
+• p5.js 
+• matter.js 
+• Phaser 
+• babylon.js 
+
+Canvas API animation
+• requestAnimationFrame()
+• clearRect()

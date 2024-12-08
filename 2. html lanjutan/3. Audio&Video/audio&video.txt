@@ -1,0 +1,35 @@
+<-- Audio -->
+"Element audio yang merepresentasikan suara atau aliran audio"
+
+<audio> attributes
+• src 
+• controls
+• preload
+• autoplay
+• loop
+• muted
+
+<audio>
+• Digunakan untuk menjalankan file audio
+• File yang didukung: .mp3, .wav, .ogg
+• Bisa menggunakan tag <source> untuk memilih audio 
+
+<-- Video -->
+"Element yang digunakan unutk menampilkan video, film ataupun audio"
+
+<video> attributes
+• src 
+• controls
+• poster
+• preload
+• autoplay 
+• loop 
+• muted 
+• width
+• height 
+
+<track> attributes
+• src 
+• kind 
+• title
+• srclang 

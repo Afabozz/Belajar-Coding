@@ -1,0 +1,3 @@
+Calc()
+Fungsi pada CSS, yang memungkinkan kita untuk melakukan operasi matematika / kalkulasi pada nilai dari sebuah properti.
+Nilai yang bisa dikelola diantaranya: <length>, <angle>, <time>, <percentage>, <number>

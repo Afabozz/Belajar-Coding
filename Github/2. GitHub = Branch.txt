@@ -1,0 +1,5 @@
+Branching
+1. Membuat git Branch
+2. Membuat snapshot tanpa mengganggu jalur utama (Master Branch)
+3. Fitur Experimental 
+4. 2 orang mengerjakan repo yang sama

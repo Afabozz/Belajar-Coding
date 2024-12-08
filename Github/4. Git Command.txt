@@ -1,0 +1,22 @@
+$ git init
+$ git add <file(s)> (untuk add 1file)
+$ git add . (untuk add semua file)
+$ git status
+$ git commit -m
+$ git config
+$ git branch <nama branch>
+$ git help
+$ git 
+
+
+3 area pada repo Git
+> Working tree
+> Staging area 
+> History
+
+Jenis Merge
+> Fast Forward
+> Three-way Merge
+
+Menghapus Branch
+$ git branch -d <nama branch>

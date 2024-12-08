@@ -1,0 +1,6 @@
+Fork / Forking
+> membuat 'copy / duplikat' dari repo orang lain (beserta history-nya)
+> Jembatan antara repo original dan duplikatnya
+> Modifikasi terhadap repo original
+> Berkotribusi pada repo orang lain
+> Fork !=Clone

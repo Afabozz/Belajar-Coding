@@ -1,0 +1,91 @@
+HTML5
+"istilah HTML5 diguankan sebagai jargon yang mengacu pada teknologi web yang modern, yang dikembangkan oleh WHATWG"
+
+WHATWG
+• The Web Hypertwxt APplication Technology Working Group
+• Komunitas berisi orang-orang yang tertarik pada perkembangan teknologi web 
+• Siapapun bisa bergabung 
+• Membuat standar dan pengujian
+• Dibentuk oleh orang-orang dari apple, mozilla foundation, dan opera ditahun 2004
+• Karena saat itu, W#C tidak tertarik untuk mengembangkan HTML
+
+Sejarah HTML
+• Pertama kali dibuat oleh  Tim Berners-Lee di CERN, pada tahun 1990
+ -> Hanya ada 18 tag / elemen
+ -> Terinpirasi dari SGML(Standard Generalized Markup Language)
+ -> Standar penulisan dokumen di CERN
+ -> Tahun 1993 diusulkan ke IETF(Internet Enginering Task Force)
+• HTML 2.0 dibuat pada tahun 1994
+ -> Dibuat oleh HTML Working Group, sebagai bagian dari IETF 
+ -> Menambahkan tabel, image map, upload file
+• HTML 3.0 dibuat pada tahun 1997
+ -> Dikembangkan dan distandarisasi oleh W3C
+ -> Organisasi yang dipimpin oleh Tim Berneers-Lee
+ -> Menghilangkan tag untuk formula matematika, blink dan marquee
+• HTML 4.0 Dibuat pada Desember 1997
+ -> Meanawarkan 3variasi: strich, tradisional dan frameset 
+  ]-> Strict, melarang tag-tag tradisional dan frameset
+  ]-> Tradisional, memperbolehkan tag-tag yang sudah usang
+  ]-> Frameset, hanya memperbolehkan elemen bertipe frame 
+• XHTML muali dibuat pada tahun 1999
+ -> Versi XML  dari HTML
+ -> Pengembangan HTML mulai ditinggalkan oleh  W3C, karena fokus di XHTML
+• HTML% mulai diusulkan pada tahun 2004
+ -> Mozilla & Opera mengusulkan pengembangan kembali HTML
+ -> Ditolak karena W3C memilih untuk mengembangkan XHTML
+ -> Apple, Mozilla & Opera memutuskan untuk membuat WHATWG, yang fokus ke pengembangan HTML agar kompatibel juga untuk versi-versi sebelumnya
+• Pada tahun 2006, W3C kembali tertarik untuk mengembangkan HTML5
+ -> WHATWG mengijinkan agar spesifikasi HTML5nya dipublikasikan dengan lisensi dari W3C
+ -> Selama bertahun-tahun bekerja sama untuk mengembangkan HTML5
+• Pada tahun 2011, kembali terjadi 'konflik'
+ -> W3C ingin 'menyelesaikan' versi HTML5
+ -> WHATWG ingin membuat 'living standard' HTML, lewat dokument berikut: https://html.spec.whatwg.org/
+ -> W3C memfasilitasi
+
+<img> attributes
+• src 
+• alt
+• width & hight 
+• title
+• src set
+• sizes 
+• loading
+
+-> src
+=> Atribut wajib 
+=> Berisi path/ lokasi tempat penyimpanan gambar 
+=> Tipe gambar yang biasa dipakai :
+ • png, jpg, jpeg, gif, svg, webp, avif
+=> perhatikan mengenai copyright
+=> Jangan lakukan 'hotlinking'
+
+-> alt
+=> Alternative teks 
+=> Deskripsi tekstual dari gambar
+=> Digunakan ketika gambar tidak bisa ditampilkan 
++> salah penulisan path
++> koneksi terlalu lambat 
+=> digunakan juga agar dibacadibaca oleh screen reader
+=> bisa digunakan juga untuk SEO 
+=> Jika disimpan didalam link, tulis url linknya 
+
+-> with $ height 
+=> menentukan ukuran gambar 
+=> akan mempertahankan aspect raratio jika hanya 1 saja yang ditentukan 
+
+-> title 
+=> untuk menuliaskn informasi tambahan mengenai gambar 
+=> menambahkan tooltip saat mouse houver 
+=> digunakan sebagagai tambahan dari alt
+
+-> srcset
+=> untuk membuat halaman web responsif 
+=> memilih gambar yang berbeda berdasarkan syarat tertentu 
+=> bisa berdasarkan layar lebar atau kerapatan pixelnya
+
+-> sizes 
+=> untuk mengatur ukuran gambar yang berbeda berdasarkan 'media condition'
+
+-> loading 
+=> menentukan bagaimana gambar diload oleh browser
+=> bisa diisi 'eager'(default) atau 'lazy'

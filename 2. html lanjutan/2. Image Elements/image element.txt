@@ -1,0 +1,62 @@
+Image ELements
+• <img>
+• <figure>
+• <picture>
+
+••> <img> attributes
+• src
+• alt
+• width & haeight
+• title
+• srcset
+• sizes
+• loading
+
+=•> src
+• Atribut wajib
+• Berisi path / lokasi tempat penyimpanan gambar
+• Tipe gambar yang biasa dipakai:
+ •>> png, jpg, jpeg, gif, svg, webp, avif
+• Perhatikan mengenai copyright
+• Jangan lakukan 'hotlinking'
+
+=•> alt
+• Alternative text 
+• Deskripsi tekstual dari gambar
+• Digunakan ketika gambar tidak bisa ditampilkan
+ •>> Salah penulisan path
+ •>> Koneksi terlalu lambat
+• Digunakan juga agar dibaca oleh screen reader
+• Bisa digunakan juga untuk SEO
+• Jika disimpan di dalam link, tulis url link nya
+
+=•> width & height
+• Menentukan ukuran gambar
+• Akan mempertahankan aspect ratio jika hanya 1 saja yang ditentukan 
+
+=•> alt
+• Untuk menuliskan informasi tambahan mengenai gambar
+• Menambahkan tooltip
+• Gunakan sebagai tambahan dari alt 
+
+=•> srcset 
+• Untuk membuat halaman web yang responsive 
+• Memilih gambar yang berbeda berdasarkan syarat tertentu 
+• Bisa berdasarkan lebar layar atau kerapatan pixelnya 
+
+=•> sizes 
+• Untuk mengatur ukuran gambar yang berbeda berdasarkan 'media condition'
+
+=•> loading 
+• Menentukan bagaimana gambar di-load oleh browser
+• Bisa diisi 'eager' (default) atau 'lazy'
+
+••> <figure>
+• Mereperesentasikan konten yang berdiri sendiri tanpa mempengaruhi flow halaman 
+• Bisa gambar, ilustrasi, diagram, code snippet
+• Biasanya gambar yang memiliki caption, menggunakan <figcaption>
+
+••> <picture> 
+• Bertujuan untuk optimasi halaman agar menghemat bandwidth dan mempercepat load time 
+• Bisa digunakan juga sebagai art direction, untuk menampilkan gambar yang berbeda display / device yang berbeda 
+
