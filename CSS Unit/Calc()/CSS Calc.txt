@@ -1,3 +1,83 @@
 Calc()
 Fungsi pada CSS, yang memungkinkan kita untuk melakukan operasi matematika / kalkulasi pada nilai dari sebuah properti.
 Nilai yang bisa dikelola diantaranya: <length>, <angle>, <time>, <percentage>, <number>
+
+Penjumlahan 
+    width: calc(10px + 100px); 
+
+Pengurangan 
+    width: calc(100% - 30px); 
+
+Perkalian 
+.el {
+    /* Valid */
+    margin: calc(10px * 3);
+    
+    /* Valid */
+    margin: calc(3 * 10px);
+    
+    /* Invalid */
+    margin: calc(30px * 3px);
+}
+
+Pembagian 
+.el{
+    /* Valid */
+    margin: calc(30px / 3);
+
+    /* Invalid */
+    margin: calc(30px / 10px);
+
+    /* Tidak bisa  dibagi 0 */
+    margin: calc(30px / 0);
+}
+
+Spasi
+.el{
+    /* Valid */
+    font-size: calc(3vw + 2px);
+
+    /* Invalid */
+    font-size: calc(3vw+2px);
+
+    /* Valid */
+    font-size: calc(3vw - 2px);
+
+    /* Invalid */
+    font-size: calc(3vw-2px);
+}
+
+Contoh 
+.el{
+    font-size: calc(3vw + 2px);
+    width:     calc(100% - 20px);
+    height:    calc(100vh - 20px);
+    padding:   calc(1vw + 5px);
+}
+
+Nesting 
+.el {
+    width: calc(calc(100% / 3) - calc(1rem * 2));
+}
+atau 
+.el {
+    width: calc((100% / 3) - (1rem * 2));
+}
+
+Order of Operation
+.el {
+    width: calc(100% / 3 - 1rem *2);
+}
+
+CSS Variables / Custom Properties 
+:root {
+    --header-height: 32px;
+}
+
+.el {
+    height: calc(100vh - var(--header-height));
+}
+
+Browser Support
+https://caniuse.com/calc 
+
