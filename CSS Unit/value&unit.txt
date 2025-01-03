@@ -1,0 +1,57 @@
+CSS Value 
+- integer "bilangan bulat (positif / negatif)"
+- number "bilangan pecahan"
+- percentage "merepresentasikan sebagian dari nilai tertentu. % selalu realtif terhadap nilai yang lain."
+- dimension "Number yang memiliki satuan di belakangnya."
+
+=> Dimension 
+- lenght 
+- angle 
+- time 
+- resolution 
+
+=> Angle 
+- deg 
+- rad 
+- grad 
+- turn 
+
+Conversion of common angles
+https://byjus.com/maths/degrees-to-radians/ 
+
+=> Time 
+- s 
+- ms 
+
+=> Resolution 
+- dpi 
+dot per inch 
+- dpcm 
+dot per centimeter 
+- dppx 
+dot per pixel
+
+=> Lenght 
+https://www.digitalocean.com/community/tutorials/css-css-units-explained
+
+- Absolute 
+Absolute Unit 	        Description              	    Example
+px            	 1/96 of 1 inch (96px = 1 inch)  	font-size: 12px;
+pt            	 1/72 of 1 inch (72pt = 1 inch)  	font-size: 12pt;
+pc            	          12pt = 1pc             	font-size: 1.2pc;
+cm            	          centimeter             	font-size: 0.6cm;
+mm            	    millimeter (10 mm = 1 cm)    	font-size: 4mm;
+in            	            inches               	font-size: 0.2in;
+
+- Relative 
+Relative Unit   	        Description
+%               	Persentase ukuran relatif terhadap ukuran elemen parent 
+em              	Relatif terhadap ukuran font yang sedang digunakan 
+rem             	Relatif terhadap ukuran font "root" / <html> 
+ch              	Relatif terhadap lebar karakter '0' dari font yang sedang digunakan 
+vh              	Relatif terhadap tinggi dari viewport 
+vw              	Relatif terhadap lebar dari viewport 
+vmin            	Relatif terhadap dimensi terkecil sebuah viewport 
+vmax            	Relatif terhadap dimensi terbesar sebuah viewport 
+ex              	Relative to height of the current font’s lowercase “x”.
+
