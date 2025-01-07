@@ -1,0 +1,32 @@
+Flexbox 
+"Model layout 1 dimensi yang dapat mengatur jarak dan penjajaran antar item dalam sebuah container."
+
+Flexbox Layout Module 
+"Sebuah modul yang menawarkan cara yang efektif untuk menyusun, mensejajarkan dan mendistribusikan jarak antar item di dalam sebuah container, meskipun ukurannya dinamis atau bahkan kita tidak tau." 
+
+Istilah pada Flex Box 
+- main axis = Sumbu utama dari sebuah container yang menentukan urutan dari penempatan items secara horizontal 
+- main-start | main-end = Mulai dan berakhirnya items yang disimpan di dalam container 
+- main size = Ukuran (width/height) dari container yang akan membuat dimensi dan items nya relatif terhadap main size 
+
+display 
+"Membuat sebuah element  parent menjadi flex box, dan membuat elemen-elemen di dalamnya bisa berperilaku flex juga.
+
+flex-direction 
+row | row-reverse | column | column-reverse;
+
+flex-wrap 
+nowrab | wrab | wrab-reverse;
+= Secara default. jenis di dalam container akan berada pada satu baris meskipun ukurannya sudah tidak cukup, wrap memungkinkan untuk memindahkan items ke baris di bawahnya 
+
+justify-content 
+flex-start | flex-end | center | space-between | space-around | space-evenly;
+= Mengatur jarak antar items 
+
+align-items 
+flex-start | flex-end | center | stretch | baseline; 
+= Mengatur perilaku penjajaran items terhadap cross axis 
+
+align-content 
+fles-start | flex-end | center | space-between | space-around;
+= Mengatur jarak antar items terhadap cross axis (hanya berfungsi ketika items lebih dari 1 baris) 
