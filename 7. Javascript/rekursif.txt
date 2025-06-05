@@ -1,0 +1,15 @@
+function cetakAngka(n) {              |      function cetakAngka(n) {
+    for( var i = n; i; >=1; i++) {  --|-->       if( n === 0 ) return;
+        console.log(i)                |          console.log(n);
+    }                                 |          cetakAngka(n-1);
+}                                     |      }
+        looping                       |              rekursif
+                                      | 
+function faktorial(n) {               |      
+    var hasil = 1;                    |      function faktorial(n) {
+    for( var i = n; i > 0; i--) {     |          if (n === 0) return 1;
+        hasil *= i;                 --|-->       return n * faktorial(n-1);
+    }                                 |      }
+    return hasil;                     |      
+}                                     |      
+        looping                       |              rekursif
