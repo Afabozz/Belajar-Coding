@@ -52,27 +52,24 @@
 
 // 6. forEach
 // var angka = [1,2,3,4,5,6,7,8];
-// var nama = ['Kafa', 'Fafa', 'Nofa', 'Sofa', 'Safa'];
-// for(var i = 0; i < angka.length; i++) {
-//     console.log(angka[i]);
+var nama = ['Kafa', 'Fafa', 'Nofa', 'Sofa', 'Safa'];
+for(var i = 0; i < nama.length; i++) {
+    console.log(nama[i]);
 // }
-
-// bisa disederhanakan seperti ini
-// var cetak = function(e) {
-//     console.log(e);
-// }
-// angka.forEach(function(e) {
-//     console.log(e);
-// }); 
-
-// atau 
+// ---> bisa disederhanakan seperti ini
+var cetak = function(e) {
+    console.log(e);
+}
+nama.forEach(function(e) {
+    console.log(e);
+}); 
+// ---> atau 
 // var cetak = function(e) {
 //     console.log(e);
 // }
 // angka.forEach(cetak);
-
-// atau 
-// angka.forEach(function(e) {
+// ---> atau 
+// nama.forEach(function(e) {
 //     console.log(e);
 // });
 // nama.forEach(function(e, i) {
@@ -95,9 +92,9 @@
 // console.log(angka.join(' - '));
 
 // 9. filter & find
-var angka = [1,3,20,5,9,2,4,6,8,10];
-var angka2 = angka.find(function(x) {
-    // return x == 7;
-    return x > 5;
-});
-console.log(angka2);
+// var angka = [1,3,20,5,9,2,4,6,8,10];
+// var angka2 = angka.find(function(x) {
+//     // return x == 7;
+//     return x > 5;
+// });
+// console.log(angka2);
